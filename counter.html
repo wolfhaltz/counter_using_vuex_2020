@@ -18,10 +18,20 @@
 <body>
 
     <div id="app">
-        <h1>{{ welcome }}</h1>
-        <h2>{{ message }}</h2>
-        <h3>{{ count }}</h3>
-        <button @click="pressed" class="btn">Increment counter</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="m-4">
+                        <h1>{{ welcome }}</h1>
+                        <small>{{ message }}</small>
+                    </div>
+                    <div class="m-4 text-center">
+                        <h3>{{ count }}</h3>
+                        <button @click="pressed" class="btn">Increment counter</button> 
+                    </div>
+                </div>
+            </div>
+        </div>   
     </div>
     <script>
         const store = new Vuex.Store({
