@@ -6,6 +6,6 @@ div#app {
     position: fixed;
     background-color : #00FF00;
     height: 100%;
-    width: 300px;
+    width: 100%;
     overflow: hidden;
   }
